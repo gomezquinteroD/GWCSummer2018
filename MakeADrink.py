@@ -124,5 +124,42 @@ elif (user2 == "2"):
 elif (user2 == "3"):
     print("You picked frappuccino.")
     drinkType = "Frappuccino"
+    frap1 = input("Would you like a (1) coffee or (2) creme frappuccino? \n")
+    if (frap1 == "1"):
+        hotIced = "Coffee"
+        frap2 = input("(1) Caramel \n(2) Java Chip \n(3) Mocha \n(4) Caffe Vanilla \n(5) Espresso \n")
+        if (frap2 == "1"):
+            drinkSpecial = "Caramel"
+            print ("Here is your " + hotIced + " " + drinkSpecial + " " + drinkType + "! Have a nice day!")
+        elif (frap2 == "2"):
+            drinkSpecial = "Java Chip"
+            print ("Here is your " + hotIced + " " + drinkSpecial + " " + drinkType + "! Have a nice day!")
+        elif (frap2 == "3"):
+            drinkSpecial = "Mocha"
+            print ("Here is your " + hotIced + " " + drinkSpecial + " " + drinkType + "! Have a nice day!")
+        elif (frap2 == "4"):
+            drinkSpecial = "Caffe Vanilla"
+            print ("Here is your " + hotIced + " " + drinkSpecial + " " + drinkType + "! Have a nice day!")
+        elif (frap2 == "5"):
+            drinkSpecial = "Espresso"
+            print ("Here is your " + hotIced + " " + drinkSpecial + " " + drinkType + "! Have a nice day!")
+    elif (frap1 == "2"):
+        hotIced = "Creme"
+        frap2 = input("(1) Vanilla Bean \n(2) Double Chocolatey Chip \n(3) Matcha Green Tea \n(4) Cotton Candy \n(5) Chai \n")
+        if (frap2 == "1"):
+            drinkSpecial = "Vanilla Bean"
+            print ("Here is your " + drinkSpecial + " " + hotIced + " " + drinkType + "! Have a nice day!")
+        elif (frap2 == "2"):
+            drinkSpecial = "Double Chocolatey Chip"
+            print ("Here is your " + drinkSpecial + " " + hotIced + " " + drinkType + "! Have a nice day!")
+        elif (frap2 == "3"):
+            drinkSpecial = "Matcha Green Tea"
+            print ("Here is your " + drinkSpecial + " " + hotIced + " " + drinkType + "! Have a nice day!")
+        elif (frap2 == "4"):
+            drinkSpecial = "Cotton Candy"
+            print ("Here is your " + drinkSpecial + " " + hotIced + " " + drinkType + "! Have a nice day!")
+        elif (frap2 == "5"):
+            drinkSpecial = "Chai"
+            print ("Here is your " + drinkSpecial + " " + hotIced + " " + drinkType + "! Have a nice day!")
 elif (user2 == "4"):
     print("You picked other.")
