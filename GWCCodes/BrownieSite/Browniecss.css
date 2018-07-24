@@ -1,0 +1,29 @@
+body {
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  text-align: center;
+}
+h1 {
+  color: #993300;
+  text-align: center;
+}
+img, iframe {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ingredients {
+  display: inline-block;
+  background-color: #ffbb99;
+  padding: 1em;
+  margin-bottom: 2em;
+  margin-left: 25%
+}
+.instructions {
+  display: inline-block;
+  background-color: #ffbb99;
+  padding: 1em;
+}
