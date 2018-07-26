@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Vote: Cats or Dogs</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="index.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Let's settle this once and for all</h1>
+        <p>Vote: Cats or Dogs?</p>
+        <button onclick="toggleVoteContainer()">Vote Now</button>
+      </div>
+    </div>
+    <div id="vote-container">
+      <div id="cats-container" class="voting">
+        <div class="carousel" id="cats-carousel" onclick="changeImage(this)">
+          <img src="https://www.petwave.com/-/media/Images/Center/Care-and-Nutrition/Cat/Kittensv2/Kitten-3.ashx?w=450&hash=C2EB74BB478F980E6504B014958FAC4BCE13D136" alt="cat image"/>
+        </div>
+
+        <div class="likes">
+          <i class="fas fa-heart" onclick="increaseLikes(this)"><span class="score"> 0</span></i> Likes
+        </div>
+      </div>
+
+      <div id="dogs-container" class="voting">
+        <div class="carousel" id="dogs-carousel" onclick="changeImage(this)">
+          <img src="http://cdn3-www.dogtime.com/assets/uploads/2011/03/puppy-development-460x306.jpg" alt="dog image"/>
+        </div>
+
+        <div class="likes">
+          <i class="fas fa-heart" onclick="increaseLikes(this)"><span class="score"> 0</span></i> Likes
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
