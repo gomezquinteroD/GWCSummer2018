@@ -1,0 +1,145 @@
+body, html {
+    height: 100%;
+    font-family: 'Montserrat';
+    background-color: #1b344b;
+}
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-text p {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("meFour.png");
+
+    /* Set a specific height */
+    height: 50%;
+    width: 50%;
+    position: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  background-color: #336499;
+  font-family: 'Montserrat';
+  color: white;
+  margin: 5px;
+}
+button:hover {
+  background-color: #8cb1d9;
+}
+button a {
+  color: white;
+  text-decoration: none;
+}
+#social {
+  font-size: 2em;
+  margin: 5px;
+  color: white;
+  font-weight: normal;
+}
+#social:hover {
+  opacity: .7;
+}
+.aboutMe {
+  display: block;
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:25%;
+  margin-right: 25%;
+  border-radius: 20px;
+  background-color: #d9e4f2;
+}
+.aboutMe p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.adjs {
+  line-height: 200%;
+  text-align: center;
+  font-style: italic;
+}
+.texts {
+  line-height: 175%;
+}
+.portfolio {
+  display: block;
+  width: 50%;
+  height: auto;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 20px;
+  background-color: #d9e4f2;
+}
+.headers {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+.portButton {
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  width: 42%;
+  display: inline-block;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffe066; /*yellow*/
+  text-shadow: 50px;
+  font-size: 2em;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.portButton:hover {
+  animation: pulse 1s;
+  opacity: 1;
+}
+.portButton a {
+  color: #ffe066; /*yellow*/
+  text-shadow: 50px;
+  font-size: 1em;
+  font-weight: bold;
+}
+#graphic {
+  width: 90%;
+  background-image: url("tentacles.jpg");
+}
+#web {
+  background-image: url("brownie.png");
+}
+#art {
+  background-image: url("skull.jpg");
+}
+#python {
+  background-image: url("pythoncodes.png");
+}
